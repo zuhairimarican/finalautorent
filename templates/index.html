@@ -19,8 +19,8 @@
   
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/aos.css') }}">
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap.min.css') }}">
-  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bootstrap-icons.css') }}">
-  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='scss/boxicons.min.css') }}">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap-icons.css') }}">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/boxicons.min.css') }}">
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/glightbox.min.css') }}">
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/remixicon.css') }}">
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/swiper-bundle.min.css') }}">
@@ -205,19 +205,6 @@
           </div>
         </div>
           
-
-            
-        <div class="row" data-aos="fade-left">
-           <form action="/predict" method="post" enctype="multipart/form-data" class="services-link">
-            <div class="drop-zone">
-                <spans>Click to upload</spans>
-                <input type="file" name="file1" class="drop-zone__input" required="required" accept="image/*" onchange='if (this.value != 0) { this.form.submit(); this.form.reset(); }'>
-            </div>
-            </form>
-        
-          
-          </div>
-          
           
           <div class="row" data-aos="fade-left">
           <div class="col-lg-3 col-md-4">
@@ -370,7 +357,7 @@
           
                     <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <div class="pic"><img src="{{ url_for('static',filename='images/team/kunmeng.jpeg') }}" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{ url_for('static',filename='images/team/kunmeng.jpg') }}" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Kun Meng</h4>
                 <span>CTO</span>
