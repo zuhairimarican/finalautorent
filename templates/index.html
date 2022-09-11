@@ -249,42 +249,61 @@
     <!-- ======= Partners Section ======= -->
     <section id="partners" class="partners">
       <div class="container">
-          
+      
+      
+       <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        .column {
+          float: left;
+          width: 11.1%;
+          padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        </style>
      
 
         <div class="section-title" data-aos="fade-up">
           <h2>Partners</h2>
           <p>Our Clientele</p>
         </div>
-          
+         
           
           <div class="row">
   <div class="column">
-    <img src="i{{ url_for('static',filename='images/partners/carlite.png') }}" alt="Carlite" style="width:11%">
+    <img src="i{{ url_for('static',filename='images/partners/carlite.png') }}" alt="Carlite" style="width:100%">
   </div>
   <div class="column">
-    <img src="{{ url_for('static',filename='images/partners/carzuno.png') }}" alt="Carzuno" style="width:11%">
+    <img src="{{ url_for('static',filename='images/partners/carzuno.png') }}" alt="Carzuno" style="width:100%">
   </div>
   <div class="column">
-    <img src="{{ url_for('static',filename='images/partners/carro.png') }}" alt="Carro" style="width:11%">
+    <img src="{{ url_for('static',filename='images/partners/carro.png') }}" alt="Carro" style="width:100%">
   </div>
     <div class="column">
-    <img src="{{ url_for('static',filename='images/partners/drivelah.png') }}" alt="Drivelah" style="width:11%">
+    <img src="{{ url_for('static',filename='images/partners/drivelah.png') }}" alt="Drivelah" style="width:100%">
   </div>
      <div class="column">
-    <img src="{{ url_for('static',filename='images/partners/getgo.png') }}" alt="GetGo" style="width:11%">
+    <img src="{{ url_for('static',filename='images/partners/getgo.png') }}" alt="GetGo" style="width:100%">
   </div>
      <div class="column">
-    <img src="{{ url_for('static',filename='images/partners/hertz.png') }}" alt="Hertz" style="width:11%">
+    <img src="{{ url_for('static',filename='images/partners/hertz.png') }}" alt="Hertz" style="width:100%">
   </div>
      <div class="column">
-    <img src="{{ url_for('static',filename='images/partners/popular.png') }}" alt="Popular" style="width:11%">
+    <img src="{{ url_for('static',filename='images/partners/popular.png') }}" alt="Popular" style="width:100%">
   </div>
       <div class="column">
-    <img src="{{ url_for('static',filename='images/partners/sgcarrental.png') }}" alt="SG Car Rental" style="width:11%">
+    <img src="{{ url_for('static',filename='images/partners/sgcarrental.png') }}" alt="SG Car Rental" style="width:100%">
   </div>
      <div class="column">
-    <img src="{{ url_for('static',filename='images/partners/tribecar.png') }}" alt="Tribe Car" style="width:11%">
+    <img src="{{ url_for('static',filename='images/partners/tribecar.png') }}" alt="Tribe Car" style="width:100%">
   </div>
                      
               
