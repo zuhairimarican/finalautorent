@@ -422,7 +422,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/hero-bg.jpg");
+  background: {{ url_for('static', filename='images/aboutus.jpg')}};
   position: relative;
   padding: 120px 0 0 0;
 }
