@@ -1,0 +1,2007 @@
+{
+  "intents": [
+    {
+      "intent": "Agent",
+      "examples": [
+        {
+          "text": "agent"
+        },
+        {
+          "text": "Please help"
+        }
+      ],
+      "description": "Agent"
+    },
+    {
+      "intent": "BookHonda",
+      "examples": [
+        {
+          "text": "Book Vezel"
+        },
+        {
+          "text": "Do you have a Vezel"
+        },
+        {
+          "text": "I want a Vezel"
+        },
+        {
+          "text": "I want to book a Vezel"
+        },
+        {
+          "text": "Vezel"
+        }
+      ],
+      "description": "Booking a Honda"
+    },
+    {
+      "intent": "Booking",
+      "examples": [
+        {
+          "text": "Book Honda"
+        },
+        {
+          "text": "Book Honda Vezel"
+        },
+        {
+          "text": "Book Mazda 3"
+        },
+        {
+          "text": "I want to book a Honda"
+        },
+        {
+          "text": "I want to book a Honda Vezel"
+        },
+        {
+          "text": "I want to book a Mazda"
+        },
+        {
+          "text": "I want to book a Mazda 3"
+        },
+        {
+          "text": "That's all"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "BookMazda",
+      "examples": [
+        {
+          "text": "book mazda"
+        },
+        {
+          "text": "Book Mazda 3"
+        },
+        {
+          "text": "I want a Mazda"
+        },
+        {
+          "text": "I want to book a Mazda"
+        },
+        {
+          "text": "Mazda"
+        }
+      ],
+      "description": "Booking a Mazda"
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Actually, let's start over"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "We will need to begin again"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        },
+        {
+          "text": "You got me"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    },
+    {
+      "intent": "Breakdown",
+      "examples": [
+        {
+          "text": "Breakdown"
+        },
+        {
+          "text": "Help me"
+        },
+        {
+          "text": "Help my car has broken down"
+        },
+        {
+          "text": "I need help"
+        },
+        {
+          "text": "I need help. Car has broken down near Punggol Drive. Can you help?"
+        },
+        {
+          "text": "SLP3453W breakdown along Sheares Avenue before Bayfront Avenue exit"
+        },
+        {
+          "text": "SLP3453W breakdown along Sheares Avenue before Bayfront Avenue exit. Can you help?"
+        },
+        {
+          "text": "SLP3453W breakdown along Sheares Avenue before Bayfront Avenue exit. I do not know what is wrong"
+        }
+      ],
+      "description": "Car has broken down"
+    },
+    {
+      "intent": "Cars",
+      "examples": [],
+      "description": "Choose a car"
+    },
+    {
+      "intent": "ConfirmBreakdown",
+      "examples": [
+        {
+          "text": "I need assistance"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Yes please"
+        }
+      ],
+      "description": "Customer confirms a breakdown"
+    },
+    {
+      "intent": "ConfirmMazda",
+      "examples": [
+        {
+          "text": "Mazda 2pm to 4pm 01/09/2022"
+        },
+        {
+          "text": "Mazda today from 2pm to 4pm"
+        }
+      ],
+      "description": "Get customer's booking date and time"
+    },
+    {
+      "intent": "ConfirmVezel",
+      "examples": [
+        {
+          "text": "Vezel 2pm to 4pm 01/09/2022"
+        },
+        {
+          "text": "Vezel today from 2pm to 4pm"
+        }
+      ],
+      "description": "Get customer's booking date and time"
+    },
+    {
+      "intent": "CustomerEndChat",
+      "examples": [
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "No thank you"
+        },
+        {
+          "text": "Nothing else"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "Thank you"
+        }
+      ],
+      "description": "Customer ends chat"
+    },
+    {
+      "intent": "CustomerThanks",
+      "examples": [
+        {
+          "text": "Ok"
+        },
+        {
+          "text": "Ok thanks"
+        }
+      ],
+      "description": "Customer says thanks"
+    },
+    {
+      "intent": "FAQ",
+      "examples": [
+        {
+          "text": "I want some questions"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello Autocheck"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Yo"
+        }
+      ],
+      "description": "Greetings"
+    },
+    {
+      "intent": "Home",
+      "examples": [
+        {
+          "text": "Home"
+        },
+        {
+          "text": "Menu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Honda",
+      "examples": [],
+      "description": "Honda chosen"
+    },
+    {
+      "intent": "HowToBook",
+      "examples": [
+        {
+          "text": "How can I extend my booking?"
+        },
+        {
+          "text": "How do I cancel my booking?"
+        },
+        {
+          "text": "How do I return my car early?"
+        },
+        {
+          "text": "What happens if there is a damage on my car?"
+        },
+        {
+          "text": "Where can I pick up the cars that I want to lease?"
+        }
+      ],
+      "description": "Questions that customers will ask about booking"
+    },
+    {
+      "intent": "Locations",
+      "examples": [
+        {
+          "text": "Where are you located?"
+        }
+      ],
+      "description": "Location of the business"
+    },
+    {
+      "intent": "main",
+      "examples": [
+        {
+          "text": "main"
+        },
+        {
+          "text": "Main Menu"
+        },
+        {
+          "text": "Rates"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Rates",
+      "examples": [
+        {
+          "text": "How much does it cost per hour?"
+        },
+        {
+          "text": "How much per hour?"
+        },
+        {
+          "text": "What are your rates like?"
+        }
+      ],
+      "description": "Questions about rates"
+    },
+    {
+      "intent": "VerifyAfterRent",
+      "examples": [
+        {
+          "text": "Here's pictures of the car."
+        },
+        {
+          "text": "I am returning this car."
+        },
+        {
+          "text": "These are pictures of my car."
+        }
+      ],
+      "description": "For customers to upload an image for verification of condition post-rental"
+    },
+    {
+      "intent": "VerifyBeforeRent",
+      "examples": [
+        {
+          "text": "I would like to rent this car."
+        },
+        {
+          "text": "Please see pictures of car chosen."
+        },
+        {
+          "text": "These are pictures of my car"
+        }
+      ],
+      "description": "For customers to upload an image for verification of condition prior to rent"
+    },
+    {
+      "intent": "Yes",
+      "examples": [
+        {
+          "text": "Ya"
+        },
+        {
+          "text": "Yes"
+        }
+      ],
+      "description": "All the yes answers"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "car",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "CarsList",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Honda",
+          "synonyms": [
+            "Honda",
+            "Honda Vezel",
+            "Vezel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mazda",
+          "synonyms": [
+            "M3",
+            "Mazda",
+            "Mazda 3"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "faq",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Booking",
+          "synonyms": [
+            "Book",
+            "Rent",
+            "Reserve"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Breakdown",
+          "synonyms": [
+            "Breakdown",
+            "Fault"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Location",
+          "synonyms": [
+            "locate",
+            "Located"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Locations",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rates",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Returns",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "mainmenu",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Main Menu",
+          "synonyms": [
+            "Home",
+            "Menu"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-percentage",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "You may type the word \"Home\" to go back to the main menu"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1662083644147"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_5_1662050048791",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Mazda 3 aspires to compete with more premium cars—and in many ways it does. The 3 is available as either a sedan or a hatchback, and both are equally as handsome and agile. Two four-cylinder engines are offered, including a punchy turbo, and you can even have all-wheel drive if you want—though that means skipping the excellent six-speed manual.\n\nMazda’s compact sedan and hatchback look sharp, feel upscale, and are lovely to drive, traits that make the 3 special in the world of small cars."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://s3-ap-southeast-1.amazonaws.com/motoristprod/editors%2Fimages%2F1659594222518-mazda+3-feature.jpg",
+            "response_type": "image"
+          },
+          {
+            "source": "https://s1.carbase.my/upload/41/251/493/interior/s19-1496400957-9470.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "If you would like to book a Mazda 3,simply type \"Book Mazda 3\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "OR",
+            "options": [
+              {
+                "label": "Back to main",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1662028645902",
+      "conditions": "@car:Mazda",
+      "dialog_node": "node_10_1662047753466",
+      "previous_sibling": "node_2_1662029226480"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For breakdowns or technical issues, let us know the following here in this chat and we will dispatch a technical team to assist: \n1. Location of the breakdown\n2. Details of the breakdown (for e.g., punctured tyre, brakes not working, steering alignment issue) \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "response_type": "connect_to_agent",
+            "transfer_info": {
+              "target": {}
+            },
+            "agent_available": {
+              "message": "Thank you for the patience. Our technical expert is online."
+            },
+            "agent_unavailable": {
+              "message": "Thank you for the patience. We are trying to find you an agent"
+            }
+          },
+          {
+            "values": [
+              {
+                "text": "You may type the word \"Home\" to go back to the main menu"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Back to Home",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1662083644147",
+      "conditions": "@faq:Breakdown && #main",
+      "dialog_node": "node_10_1662083644152",
+      "previous_sibling": "node_7_1662083644152"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please wait a moment. We are transferring you to a GetGo agent."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1662871949839",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1662872679418"
+      },
+      "conditions": "#ConfirmBreakdown",
+      "dialog_node": "node_10_1662872120832"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For breakdowns or technical issues, let us know the following here in this chat and we will dispatch a technical team to assist. Remain calm and type the following details here so that we can assist accordingly: \n\n1. Location of the breakdown, vehicle number and mechanical issue you are facing. If you are still able to move the vehicle, ensure that you drive onto the road shoulder and have your hazard lights turned on \n\n2. Details of the breakdown if you know the issue (for e.g., punctured tyre, brakes not working, steering alignment issue) \n\nYou may type in a response like this example (SLP3453W breakdown along Sheares Avenue before Bayfront Avenue exit)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Back to main",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "conditions": "@faq:Breakdown",
+      "dialog_node": "node_1_1662028719086",
+      "previous_sibling": "node_9_1662028645902"
+    },
+    {
+      "type": "standard",
+      "title": "Book Vezel",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We can assist to see if one of our Honda Vezels are available. \n\nSimply type in your desired booking time and date in this format: DD/MM/YYYY at XXam to XXpm OR Today at XXam to XXpm\n\nFor example if you need a vehicle today between 2pm to 4pm, type: Vezel 2pm to 4pm today\nFor example if you need a vehicle on 01/09/2022 between 2pm to 4pm, type: Vezel 2pm to 4pm 01/09/2022"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#BookHonda",
+      "dialog_node": "node_1_1662047388271",
+      "previous_sibling": "node_2_1662083644147"
+    },
+    {
+      "type": "standard",
+      "title": "Ok thanks",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our pleasure. Is there anything else I can help you with a booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#CustomerThanks",
+      "dialog_node": "node_1_1662049907151",
+      "previous_sibling": "node_8_1661956544253"
+    },
+    {
+      "type": "standard",
+      "title": "Confirm Honda Booking",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You are in luck! We have a Honda Vezel available from 2pm to 4pm today. \nVehicle Number: SMR8076C\n\n1. Please make your way to our showroom at 50 Paya Lebar Road (S840392) and register at our office. \n2. Snap 4 images of the car as follows and upload via our web app to complete your booking: \nA) Front \nB) Back\nC) Left Side\nD) Right Side"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Front",
+            "source": "https://cdn.carro.co/tr:w-846,h-477,pr-true/2022/06/Inventory/39850762/honda-vezel-1.5a-x-G08K9X-carro-009.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Back",
+            "source": "https://cdn.carro.co/tr:w-846,h-477,pr-true/2022/06/Inventory/39850764/honda-vezel-1.5a-x-G08K9X-carro-009.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Left Side",
+            "source": "https://cdn.carro.co/tr:w-846,h-477,pr-true/2022/06/Inventory/39850765/honda-vezel-1.5a-x-G08K9X-carro-011.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Right Side",
+            "source": "https://cdn.carro.co/tr:w-846,h-477,pr-true/2022/06/Inventory/39850763/honda-vezel-1.5a-x-G08K9X-carro-008.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Happy Driving!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Back to main",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#ConfirmVezel",
+      "dialog_node": "node_1_1662082280811",
+      "previous_sibling": "node_8_1662048383412"
+    },
+    {
+      "type": "standard",
+      "title": "Make a booking",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have two models available for rental. You can choose between a Honda Vezel or a Mazda 3."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Choose a model",
+            "options": [
+              {
+                "label": "Honda Vezel",
+                "value": {
+                  "input": {
+                    "text": "Honda"
+                  }
+                }
+              },
+              {
+                "label": "Mazda 3",
+                "value": {
+                  "input": {
+                    "text": "Mazda"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "title": "Honda Vezel",
+            "source": "https://lioncityrentals.com.sg/wp-content/uploads/2019/11/product-vezel.jpg",
+            "alt_text": "Honda Vezel",
+            "response_type": "image"
+          },
+          {
+            "title": "Mazda 3",
+            "source": "https://ymimg1.b8cdn.com/resized/car_version/5042/pictures/3055592/mobile_listing_main_10619_st1280_116.jpg",
+            "alt_text": "Mazda 3",
+            "response_type": "image"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Back to main",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Booking",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1662558881584",
+      "previous_sibling": "node_7_1662387821727",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Completely redesigned and re-engineered, the all-new Honda Vezel exudes a more angular, straight-edged look and horizontally themed layout cabin. This latest generation Vezel is a combination of compact and exceptionally spacious vehicles, conquering every family journey with exemplary and excellent driving capabilities.\n\nProducing 116 horsepower and a maximum torque of 142 Nm, this subcompact SUV houses a reliable 1.5-litre 4-cylinder inline DOHC i-VTEC mated to a Continuously Variable Transmission (CVT). It also boasts a new e:HEV hybrid powertrain to deliver a smooth ride, crisp acceleration and a refreshed interior for a maximum sense of openness. \n\nThe new Honda Vezel is a combination of practicality and functionality of a coupe, SUV and minivan to provide dynamic handling and class-leading comforts for up to five passengers on board."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://cdn.autoportal.com/img/new-cars-gallery/honda/vezel/exterior/ba78ad5/honda-vezel-ba78ad5-500x375.jpg",
+            "response_type": "image"
+          },
+          {
+            "source": "https://cdn.carchoice.com.sg/web/brandnew/honda-vezel-2021-car-choice-02_1440x1440.jpg?alt=media&token=a7f942f0-798c-42e4-a269-d4a3327231c2",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "If you would like to book a Honda Vezel,simply type \"Book Vezel\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "OR",
+            "options": [
+              {
+                "label": "Back to main",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1662028645902",
+      "conditions": "@car:Honda",
+      "dialog_node": "node_2_1662029226480"
+    },
+    {
+      "type": "standard",
+      "title": "Home",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello and welcome to GetGo. You can book a car directly through our web app in 3 simple steps. If this is your first time renting with us, here are some handy tips."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Get Started",
+            "options": [
+              {
+                "label": "Our Rates",
+                "value": {
+                  "input": {
+                    "text": "Rates"
+                  }
+                }
+              },
+              {
+                "label": "Rental Locations",
+                "value": {
+                  "input": {
+                    "text": "Locations"
+                  }
+                }
+              },
+              {
+                "label": "Make a booking",
+                "value": {
+                  "input": {
+                    "text": "Book"
+                  }
+                }
+              },
+              {
+                "label": "Technical Issues",
+                "value": {
+                  "input": {
+                    "text": "Breakdown"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Home",
+      "dialog_node": "node_2_1662083644147",
+      "previous_sibling": "node_3_1662558704629"
+    },
+    {
+      "type": "standard",
+      "title": "Book Honda",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Completely redesigned and re-engineered, the all-new Honda Vezel exudes a more angular, straight-edged look and horizontally themed layout cabin. This latest generation Vezel is a combination of compact and exceptionally spacious vehicles, conquering every family journey with exemplary and excellent driving capabilities.\n\n\nProducing 116 horsepower and a maximum torque of 142 Nm, this subcompact SUV houses a reliable 1.5-litre 4-cylinder inline DOHC i-VTEC mated to a Continuously Variable Transmission (CVT). It also boasts a new e:HEV hybrid powertrain to deliver a smooth ride, crisp acceleration and a refreshed interior for a maximum sense of openness. \n\n\nThe new Honda Vezel is a combination of practicality and functionality of a coupe, SUV and minivan to provide dynamic handling and class-leading comforts for up to five passengers on board."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://cdn.autoportal.com/img/new-cars-gallery/honda/vezel/exterior/ba78ad5/honda-vezel-ba78ad5-500x375.jpg",
+            "response_type": "image"
+          },
+          {
+            "source": "https://cdn.carchoice.com.sg/web/brandnew/honda-vezel-2021-car-choice-02_1440x1440.jpg?alt=media&token=a7f942f0-798c-42e4-a269-d4a3327231c2",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "If you would like to book a Honda Vezel,simply type \"Book Vezel\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Back to main",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1662558881584",
+      "conditions": "@car:Honda",
+      "dialog_node": "node_2_1662558881590"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "GetGo is conveniently located at #01-100, 50 Paya Lebar Road\nSingapore 409050\n\n24-hour hotline: 6545 6789\nOperating Hours:\nDaily including public holidays: 10AM – 7PM"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Location of GetGo",
+            "source": "https://www.streetdirectory.com/stock_images/travel/simg_show/15972164940176/61819_1024/az__paya_lebar/",
+            "alt_text": "Location of GetGo",
+            "response_type": "image"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Back to menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "conditions": "@faq:Locations",
+      "dialog_node": "node_3_1662002280004",
+      "previous_sibling": "node_4_1662001945125"
+    },
+    {
+      "type": "standard",
+      "title": "Book Mazda 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We can assist to see if one of our Mazda 3s are available. \n\nSimply type in your desired booking time and date in this format: DD/MM/YYYY at XXam to XXpm OR Today at XXam to XXpm\n\nFor example if you need a vehicle today between 2pm to 4pm, type: Mazda today from 2pm to 4pm\nFor example if you need a vehicle on 01/09/2022 between 2pm to 4pm, type: Mazda 2pm to 4pm 01/09/2022"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#BookMazda",
+      "dialog_node": "node_3_1662048255789",
+      "previous_sibling": "node_1_1662047388271"
+    },
+    {
+      "type": "standard",
+      "title": "Rates",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our rates are: \n1. Fee per hour at $ 6\n2. Mileage at $ 0.39 per km. There is no capacity limit imposed on rental. You will be charged for the distance driven.\n\nFor e.g., if you made a booking on Monday, 2pm to 4pm, and travelled 20km, you would pay:(2 hours x $ 6) + (20km x $ 0.39) = $ 19.80\n\nNote: All prices stated are inclusive of GST"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "You may type the word \"Home\" to go back to the main menu"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Back to main",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1662083644147",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@faq:Rates && #main",
+      "dialog_node": "node_3_1662083644152"
+    },
+    {
+      "type": "standard",
+      "title": "Locations",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "GetGo is conveniently located at #01-100, 50 Paya Lebar Road\nSingapore 409050\n\n24-hour hotline: 6545 6789\nOperating Hours:\nDaily including public holidays: 10AM – 7PM"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Location of GetGo",
+            "source": "https://www.streetdirectory.com/stock_images/travel/simg_show/15972164940176/61819_1024/az__paya_lebar/",
+            "alt_text": "Location of GetGo",
+            "response_type": "image"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Back to main",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Locations",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1662558704629",
+      "previous_sibling": "node_1_1662558881584"
+    },
+    {
+      "type": "standard",
+      "title": "Book Mazda",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Mazda 3 aspires to compete with more premium cars—and in many ways it does. The 3 is available as either a sedan or a hatchback, and both are equally as handsome and agile. Two four-cylinder engines are offered, including a punchy turbo, and you can even have all-wheel drive if you want—though that means skipping the excellent six-speed manual.\n\n\nMazda’s compact sedan and hatchback look sharp, feel upscale, and are lovely to drive, traits that make the 3 special in the world of small cars."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://s3-ap-southeast-1.amazonaws.com/motoristprod/editors%2Fimages%2F1659594222518-mazda+3-feature.jpg",
+            "response_type": "image"
+          },
+          {
+            "source": "https://s1.carbase.my/upload/41/251/493/interior/s19-1496400957-9470.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "If you would like to book a Mazda 3,simply type \"Book Mazda 3\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Back to main",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1662558881584",
+      "conditions": "@car:Mazda",
+      "dialog_node": "node_3_1662558881590",
+      "previous_sibling": "node_2_1662558881590"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our rates are: \n1. Fee per hour at $ 6\n2. Mileage at $ 0.39 per km. There is no capacity limit imposed on rental. You will be charged for the distance driven.\n\nFor e.g., if you made a booking on Monday, 2pm to 4pm, and travelled 20km, you would pay:(2 hours x $ 6) + (20km x $ 0.39) = $ 19.80\n\nNote: All prices stated are inclusive of GST"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Back to main",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@faq:Rates && #main",
+      "dialog_node": "node_4_1662001945125",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "response_type": "connect_to_agent",
+            "transfer_info": {
+              "target": {
+                "zendesk": {}
+              }
+            },
+            "agent_available": {
+              "message": "Routing you to an agent"
+            },
+            "agent_unavailable": {
+              "message": "Getting you an agent."
+            }
+          },
+          {
+            "source": "",
+            "response_type": "iframe"
+          },
+          {
+            "values": [
+              {
+                "text": "<iframe src=\"https://help.getgo.sg/en/\" title=\"W3Schools Free Online Web Tutorials\"></iframe>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1662872120832",
+      "conditions": "#Agent",
+      "dialog_node": "node_4_1662872679418"
+    },
+    {
+      "type": "standard",
+      "title": "Customer Ends Chat",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Glad to be of help. See you soon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#CustomerEndChat",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1662050048791",
+      "previous_sibling": "node_1_1662049907151",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Locations",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "GetGo is conveniently located at 50 Paya Lebar Road\n\nOperating Hours:\nDaily including public holidays: 10AM – 7PM"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "You may type the word \"Home\" to go back to the main menu"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Back to main",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1662083644147",
+      "conditions": "@faq:Locations && #main",
+      "dialog_node": "node_6_1662083644152",
+      "previous_sibling": "node_3_1662083644152"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "At GetGo, we have two models available for rental. You can choose between a Honda Vezel or a Mazda 3."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Choose a model",
+            "options": [
+              {
+                "label": "Honda Vezel",
+                "value": {
+                  "input": {
+                    "text": "Honda"
+                  }
+                }
+              },
+              {
+                "label": "Mazda 3",
+                "value": {
+                  "input": {
+                    "text": "Mazda"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "title": "Honda Vezel",
+            "source": "https://lioncityrentals.com.sg/wp-content/uploads/2019/11/product-vezel.jpg",
+            "alt_text": "Honda Vezel",
+            "response_type": "image"
+          },
+          {
+            "title": "Mazda 3",
+            "source": "https://ymimg1.b8cdn.com/resized/car_version/5042/pictures/3055592/mobile_listing_main_10619_st1280_116.jpg",
+            "alt_text": "Mazda 3",
+            "response_type": "image"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Back to Home",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1662083644147",
+      "conditions": "@faq:Booking",
+      "dialog_node": "node_7_1662083644152",
+      "previous_sibling": "node_6_1662083644152"
+    },
+    {
+      "type": "standard",
+      "title": "Main Menu",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Main Menu",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@mainmenu",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1662387821727",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our rates are The mileage charge is $ 0.39/km across all vehicles.\nFor example if you made a booking for a Honda Vezel on Monday, 2pm to 4pm, and travelled 20km, you would pay:\n\n(2h x $ 6) + (20km x $ 0.39) = $ 19.80\n\nNote: All prices stated are inclusive of GST"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Rates",
+      "dialog_node": "node_8_1661956544253",
+      "previous_sibling": "node_1_1662082280811"
+    },
+    {
+      "type": "standard",
+      "title": "Confirm Mazda Booking",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You are in luck! We have a Mazda 3 available from 2pm to 4pm today. \nVehicle Number: SLP3488Y\n\n1. Please make your way to our showroom at 50 Paya Lebar Road (S840392) and register at our office. \n2. Snap 4 images of the car as follows and upload via our web app to complete your booking: \nA) Front \nB) Back\nC) Left Side\nD) Right Side"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Front",
+            "source": "https://s3-ap-southeast-1.amazonaws.com/motoristprod/editors%2Fimages%2F1659594222518-mazda+3-feature.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Back",
+            "source": "https://s3-ap-southeast-1.amazonaws.com/motoristprod/editors%2Fimages%2F1659595705570-mazda+3-2.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Left Side",
+            "source": "https://di-uploads-pod17.dealerinspire.com/balisemazda/uploads/2022/02/mazda-3-hatchback.png",
+            "response_type": "image"
+          },
+          {
+            "title": "Right Side",
+            "source": "https://s3-ap-southeast-1.amazonaws.com/motoristprod/editors%2Fimages%2F1659595798170-mazda+3-3.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Happy Driving!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Back to main",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#ConfirmMazda",
+      "dialog_node": "node_8_1662048383412",
+      "previous_sibling": "node_3_1662048255789"
+    },
+    {
+      "type": "standard",
+      "title": "Book Honda",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Completely redesigned and re-engineered, the all-new Honda Vezel exudes a more angular, straight-edged look and horizontally themed layout cabin. This latest generation Vezel is a combination of compact and exceptionally spacious vehicles, conquering every family journey with exemplary and excellent driving capabilities.\n\n\nProducing 116 horsepower and a maximum torque of 142 Nm, this subcompact SUV houses a reliable 1.5-litre 4-cylinder inline DOHC i-VTEC mated to a Continuously Variable Transmission (CVT). It also boasts a new e:HEV hybrid powertrain to deliver a smooth ride, crisp acceleration and a refreshed interior for a maximum sense of openness. \n\n\nThe new Honda Vezel is a combination of practicality and functionality of a coupe, SUV and minivan to provide dynamic handling and class-leading comforts for up to five passengers on board."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://cdn.autoportal.com/img/new-cars-gallery/honda/vezel/exterior/ba78ad5/honda-vezel-ba78ad5-500x375.jpg",
+            "response_type": "image"
+          },
+          {
+            "source": "https://cdn.carchoice.com.sg/web/brandnew/honda-vezel-2021-car-choice-02_1440x1440.jpg?alt=media&token=a7f942f0-798c-42e4-a269-d4a3327231c2",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "If you would like to book a Honda Vezel,simply type \"Book Vezel\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Or if you prefer a Mazda 3, type in \"Book Mazda 3\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Back to Main",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1662083644152",
+      "conditions": "@car:Honda",
+      "dialog_node": "node_8_1662083644152"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We have two models available for rental. You can choose between a Honda Vezel or a Mazda 3."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Honda Vezel",
+            "source": "https://carro.sg/blog/wp-content/uploads/2016/10/Vezel.jpg",
+            "alt_text": "Honda Vezel",
+            "response_type": "image"
+          },
+          {
+            "title": "Mazda 3",
+            "source": "https://www.mazdamisr.com/media/50fbicm3/mazda3_bfvgnak_46v_by3_ext_360_36_png_0006.jpg",
+            "alt_text": "Mazda 3",
+            "response_type": "image"
+          },
+          {
+            "title": "Choose a model to proceed with a booking",
+            "options": [
+              {
+                "label": "Honda Vezel",
+                "value": {
+                  "input": {
+                    "text": "Honda"
+                  }
+                }
+              },
+              {
+                "label": "Mazda 3",
+                "value": {
+                  "input": {
+                    "text": "Mazda"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Back to main",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "conditions": "@faq:Booking",
+      "dialog_node": "node_9_1662028645902",
+      "previous_sibling": "node_3_1662002280004"
+    },
+    {
+      "type": "standard",
+      "title": "Book Mazda",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Mazda 3 aspires to compete with more premium cars—and in many ways it does. The 3 is available as either a sedan or a hatchback, and both are equally as handsome and agile. Two four-cylinder engines are offered, including a punchy turbo, and you can even have all-wheel drive if you want—though that means skipping the excellent six-speed manual.\n\n\nMazda’s compact sedan and hatchback look sharp, feel upscale, and are lovely to drive, traits that make the 3 special in the world of small cars."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Front",
+            "source": "https://d15yvjwjqalz4d.cloudfront.net/wp-content/uploads/2019/07/2019_mazda_3_review_singapore_price_04072019.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "",
+            "source": "https://s1.carbase.my/upload/41/251/493/interior/s19-1496400957-9470.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "If you would like to book a Mazda 3,simply type \"Book Mazda 3\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Or if you prefer a Honda Vezel, type in \"Book Vezel\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Back to Main",
+                "value": {
+                  "input": {
+                    "text": "Main Menu"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1662083644152",
+      "conditions": "@car:Mazda",
+      "dialog_node": "node_9_1662083644152",
+      "previous_sibling": "node_8_1662083644152"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are here to assist in mechanical issues or breakdowns. Would you like me to call for one of our GetGo live chat operators to assist?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1662028719086",
+      "conditions": "#Breakdown",
+      "dialog_node": "node_9_1662871949839"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our rates are: 1. Fee per hour at $ 62. Mileage at $ 0.39 per km. There is no capacity limit imposed on rental. You will be charged for the distance driven.For e.g., if you made a booking on Monday, 2pm to 4pm, and travelled 20km, you would pay:(2 hours x $ 6) + (20km x $ 0.39) = $ 19.80Note: All prices stated are inclusive of GST"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1662001945125",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_2_1662028964973"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here's all our cars"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1662001945125",
+      "disabled": true,
+      "conditions": "#Book",
+      "dialog_node": "response_2_1662036969938",
+      "previous_sibling": "response_2_1662028964973"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our rates are: 1. Fee per hour at $ 62. Mileage at $ 0.39 per km. There is no capacity limit imposed on rental. You will be charged for the distance driven.For e.g., if you made a booking on Monday, 2pm to 4pm, and travelled 20km, you would pay:(2 hours x $ 6) + (20km x $ 0.39) = $ 19.80Note: All prices stated are inclusive of GST"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1662083644152",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_4_1662083644152"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here's all our cars"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1662083644152",
+      "disabled": true,
+      "conditions": "#Book",
+      "dialog_node": "response_5_1662083644152",
+      "previous_sibling": "response_4_1662083644152"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello and welcome to GetGo. You can book a car directly through our web app in 3 simple steps. If this is your first time renting with us, here are some handy tips."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Get Started",
+            "options": [
+              {
+                "label": "Our Rates",
+                "value": {
+                  "input": {
+                    "text": "Rates"
+                  }
+                }
+              },
+              {
+                "label": "Locations",
+                "value": {
+                  "input": {
+                    "text": "Locations"
+                  }
+                }
+              },
+              {
+                "label": "Make a booking",
+                "value": {
+                  "input": {
+                    "text": "Book"
+                  }
+                }
+              },
+              {
+                "label": "Technical Issues",
+                "value": {
+                  "input": {
+                    "text": "Breakdown"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome || @mainmenu",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "FAQ",
+  "language": "en",
+  "description": ""
+}

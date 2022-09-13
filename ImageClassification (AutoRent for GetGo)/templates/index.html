@@ -1,0 +1,174 @@
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "518d8e10-fae1-4c24-ac5f-fe5e8ad901d3", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "1a604aa2-25b2-4c1d-8093-5a7f46f04d88", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Upload Image For A New GetGo Car Booking</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="/86AAF7CD-A199-463A-BEEF-AEE7400B3F0D/main.js?attr=1ImoYgFQYjqythw40r3_BjAPpetg5QQvFI6A65aW-wacp822eHRkEp3xV9aHBfHK6IEbd36P2my8MIRQQFkZjBka_d5cNwNxZk9yaFhhtmE" charset="UTF-8"></script><style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" background-color="black" id="myNavbar">
+    <img src="https://raw.githubusercontent.com/eugoregon/carsfolder/00ee146c7a337a96ba9434b7049b79b48f7af647/mazda/getgo.jpg" alt="A drone">
+    <!-- Right-sided navbar links -->
+    <div background-color="black" class="w3-right w3-hide-small">
+      <a href="{{ url_for('main_page') }}" class="w3-bar-item w3-button"><i class="fa fa-th"></i> Upload Image for A New Booking</a>
+      <a href="{{ url_for('index2') }}" class="w3-bar-item w3-button"><i class="fa fa-th"></i>Upload Image for Ending A Booking</a>
+      <a href="https://getgo.sg/" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contact GetGo</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close &times;</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">Upload Image</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Work Section -->
+<div class="w3-container" id="work">
+  <div class="w3-row-padding" style="margin-top:164px">
+      <div class="w3-col l3 m6"><h3>Front</h3>
+      <img src="https://raw.githubusercontent.com/eugoregon/carsfolder/d20f0a9315ab5515c2a0c47990b2250814039ef1/mazda/mazda3front.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Front">
+    </div>
+    <div class="w3-col l3 m6"><h3>Left</h3>
+      <img src="https://raw.githubusercontent.com/eugoregon/carsfolder/d20f0a9315ab5515c2a0c47990b2250814039ef1/mazda/mazda3left.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Left">
+    </div>
+    <div class="w3-col l3 m6"><h3>Right</h3>
+      <img src="https://raw.githubusercontent.com/eugoregon/carsfolder/d20f0a9315ab5515c2a0c47990b2250814039ef1/mazda/mazda3right.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Right">
+    </div>
+    <div class="w3-col l3 m6"><h3>Rear</h3>
+      <img src="https://raw.githubusercontent.com/eugoregon/carsfolder/d20f0a9315ab5515c2a0c47990b2250814039ef1/mazda/mazda3rear.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Rear">
+    </div>
+  </div>
+
+  
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3><b>Upload Image For A New GetGo Car Booking</b></h3>
+        <p>GetGo requires all customers to upload a before and after pictures of each car being rented. Please refer to these 4 angles that you are required to upload before you can complete your booking and start driving.</p>
+       <p>You have booked a: <b>Mazda 3</b>
+<br>Booking period : <b>7th September 2022 from 9am to 12pm</b>
+<br>Vehicle number : <b>SLP3459W</b><br><br></p>
+
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Upload one picture at a time</p>
+     <form method=post enctype=multipart/form-data>
+     <p class="text-light">
+        <input type=file name=file>
+        <input type=submit value=Upload>
+     </p>
+  </form>
+     
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#work" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
