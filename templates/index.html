@@ -19,8 +19,8 @@
   
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/aos.css') }}">
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap.min.css') }}">
-  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='bootstrap-icons.css') }}">
-  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='scss/boxicons.min.css') }}">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap-icons.css') }}">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/boxicons.min.css') }}">
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/glightbox.min.css') }}">
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/remixicon.css') }}">
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/swiper-bundle.min.css') }}">
@@ -45,7 +45,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-          <h1><a href="#page-top"><img src="{{ url_for('static',filename='images/logo.png') }}"><class="img-fluid"></a><a href="#page-top"><span>AutoRent</span></a></h1>
+          <h1><a href="#page-top"><img src="{{ url_for('static',filename='images/logo.png') }}"><class="img-fluid"></a><a href=""><span>AutoRent</span></a></h1>
       </div>
 
       <nav id="navbar" class="navbar">
@@ -78,7 +78,7 @@
           </div>
         </div>
         <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
-          <img src="{{ url_for('static',filename='images/heroright.jpg') }}" class="img-fluid animated" alt="">
+          <img src="{{ url_for('static',filename='images/hero2.png') }}" class="img-fluid animated" alt=""/>
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@
         </div>
 
         <div class="row">
-          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right"><img src="{{ url_for('static',filename='images/aboutus.jpg') }}" alt="" class="img-fluid">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right"><img src="{{ url_for('static',filename='images/heroright.jpg') }}" alt="" class="img-fluid">
           </div>
 
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
@@ -156,10 +156,10 @@
               Prior to completing a booking, a customer only needs to submit these 4 pictures of the rental vehicle via your app or webpage. Our A.I. will then detect for damages and will deliver an assessment of the extent of the damage.
             </p>
             <ul>
-              <li><i class="bi bi-check"></i> Front </li>
-              <li><i class="bi bi-check"></i> Rear </li>
-              <li><i class="bi bi-check"></i> Left Side </li>
-              <li><i class="bi bi-check"></i> Right Side </li>
+              <li> Front </li>
+              <li> Rear </li>
+              <li> Left Side </li>
+              <li> Right Side </li>
             </ul>
 
           </div>
@@ -179,8 +179,8 @@
               Protect your car rental business and customers against damage assessments that are missed out or disputed claims.
             </p>
             <ul>
-              <li><i class="bi bi-check"></i> Instant upload by customers</li>
-              <li><i class="bi bi-check"></i> A.I. takes away the mundane of inspections and verifications</li>
+              <li> Instant upload by customers</li>
+              <li> A.I. takes away the mundane of inspections and verifications</li>
            
             </ul>
           </div>
@@ -194,61 +194,11 @@
              <p>
           Customers know and can trust our A.I. to take the fuss out of vehicle inspections and this can smoothen the rental process for your business.
             </p>
-            <ul>
-                          <li><i class="bi bi-check"></i> Front</li>
-              <li><i class="bi bi-check"></i> Rear</li>
-              <li><i class="bi bi-check"></i> Left Side</li>
-<li><i class="bi bi-check"></i> Right Side</li>
-            </ul>
             
 
           </div>
         </div>
-          
-
-            
-        <div class="row" data-aos="fade-left">
-           <form action="/predict" method="post" enctype="multipart/form-data" class="services-link">
-            <div class="drop-zone">
-                <spans>Click to upload</spans>
-                <input type="file" name="file1" class="drop-zone__input" required="required" accept="image/*" onchange='if (this.value != 0) { this.form.submit(); this.form.reset(); }'>
-            </div>
-            </form>
-        
-          
-          </div>
-          
-          
-          <div class="row" data-aos="fade-left">
-          <div class="col-lg-3 col-md-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
-              <i class="ri-store-line" style="color: #ffbb2c;"></i>
-              <h3><a href="">Instant Verification</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-              <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-              <h3><a href="">Ease of Use</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
-              <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-              <h3><a href="">Accurate Assessment</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <h3><a href="">Cost-Effective</a></h3>
-            </div>
-          </div>
-         
-         
-
-      </div>        
-          
+       
           
           
           
@@ -262,24 +212,41 @@
     <!-- ======= Partners Section ======= -->
     <section id="partners" class="partners">
       <div class="container">
-          
+      
+      
+       <style>
+        * {
+          box-sizing: border-box;
+        }
+
+        .column {
+          float: left;
+          width: 12.5%;
+          padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        </style>
      
 
         <div class="section-title" data-aos="fade-up">
           <h2>Partners</h2>
           <p>Our Clientele</p>
         </div>
-          
+         
           
           <div class="row">
-  <div class="column">
-    <img src="i{{ url_for('static',filename='images/partners/carlite.png') }}" alt="Carlite" style="width:100%">
-  </div>
+
   <div class="column">
     <img src="{{ url_for('static',filename='images/partners/carzuno.png') }}" alt="Carzuno" style="width:100%">
   </div>
   <div class="column">
-    <img src="{{ url_for('static',filename='images/partners/carro.png') }}" alt="Carro" style="width:100%">
+    <img src="{{ url_for('static',filename='images/partners/carro.jpeg') }}" alt="Carro" style="width:100%">
   </div>
     <div class="column">
     <img src="{{ url_for('static',filename='images/partners/drivelah.png') }}" alt="Drivelah" style="width:100%">
@@ -297,7 +264,7 @@
     <img src="{{ url_for('static',filename='images/partners/sgcarrental.png') }}" alt="SG Car Rental" style="width:100%">
   </div>
      <div class="column">
-    <img src="{{ url_for('static',filename='images/partners/tribecar.png') }}" alt="Tribe Car" style="width:100%">
+    <img src="{{ url_for('static',filename='images/partners/tribecar.jpeg') }}" alt="Tribe Car" style="width:100%">
   </div>
                      
               
@@ -325,13 +292,6 @@
               <div class="pic"><img src="{{ url_for('static',filename='images/team/zuh.jpeg') }}" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Zuhairi Marican</h4>
-                <span>Chief Executive Officer</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
               </div>
             </div>
           </div>
@@ -341,13 +301,6 @@
               <div class="pic"><img src="{{ url_for('static',filename='images/team/amos.jpeg') }}" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Amos Lim</h4>
-                <span>Product Manager</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
               </div>
             </div>
           </div>
@@ -357,29 +310,15 @@
               <div class="pic"><img src="{{ url_for('static',filename='images/team/eugene.jpeg') }}" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Eugene</h4>
-                <span>CTO</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
               </div>
             </div>
           </div>
           
                     <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <div class="pic"><img src="{{ url_for('static',filename='images/team/kunmeng.jpeg') }}" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="{{ url_for('static',filename='images/team/kunmeng.jpg') }}" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Kun Meng</h4>
-                <span>CTO</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
               </div>
             </div>
           </div>
@@ -393,13 +332,6 @@
               <div class="pic"><img src="{{ url_for('static',filename='images/team/george.jpeg') }}" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>George</h4>
-                <span>Accountant</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
               </div>
             </div>
           </div>
